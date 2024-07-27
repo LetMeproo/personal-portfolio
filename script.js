@@ -128,12 +128,12 @@ slides[0].classList.add('active');
 // contact form for emailjs library
 
 (function() {
-    emailjs.init('EJRkxyc5twkQFJJQx'); 
+    emailjs.init('LonyvePhRqBDUS19j'); 
 })();
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();
-    emailjs.sendForm('service_m3tdqcd', 'template_qu06n8o', this)
+    emailjs.sendForm('service_wuzm2yg', 'template_97ud5yr', this)
         .then(function() {
             alert('Message sent successfully!');
         }, function(error) {
