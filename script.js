@@ -128,7 +128,7 @@ slides[0].classList.add('active');
 // contact form for emailjs library
 
 (function() {
-    emailjs.init('EJRkxyc5twkQFJJQx'); 
+    emailjs.init('5qIoRsqXZpLERDU2nMX4w'); 
 })();
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
